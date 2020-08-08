@@ -1,5 +1,5 @@
 export default {
   backend: {
-    host: 'http://localhost:8080'
+    host: process.env.BACKEND_URL
   }
 };
