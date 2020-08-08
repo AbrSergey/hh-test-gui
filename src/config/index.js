@@ -1,5 +1,5 @@
 export default {
   backend: {
-    host: 'https://hh-test-backend.herokuapp.com:55002'
+    host: process.env.BACKEND_URL
   }
 };
